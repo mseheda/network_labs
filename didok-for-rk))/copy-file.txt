@@ -1,0 +1,21 @@
+#include <iostream>
+#include <cstdlib>
+
+using namespace std;
+
+void copyFile(const string& source, const string& destination)
+{
+    string command = "copy \"" + source + "\" \"" + destination + "\"";
+    int result = system(command.c_str());
+    if (result != 0) {
+        cerr << "Error copying file!" << endl;
+    } else {
+        cout << "File copied successfully!" << endl;
+    }
+}
+
+int main()
+{
+    copyFile("C:\\Users\\38097\\CLionProjects\\untitled\\longnum.txt", "C:\\Users\\38097\\CLionProjects\\untitled\\copy.txt");
+    return 0;
+}

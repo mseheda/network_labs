@@ -1,0 +1,22 @@
+#include <iostream>
+
+bool isPalindrome(int number) {
+    if (number < 0) {
+        return false;
+    }
+
+    int reversedHalf = 0;
+    while (number > reversedHalf) {
+        reversedHalf = reversedHalf * 10 + number % 10;
+        number /= 10;
+    }
+    return (number == reversedHalf || number == reversedHalf / 10);
+}
+
+int main() {
+    int number;
+    std::cout << "1221  " << isPalindrome(1221) << std::endl ;
+    std::cout << "12312  " << isPalindrome(12312) << std::endl ;
+    std::cout << "12321  " << isPalindrome(12321) << std::endl ;
+    return 0;
+}
