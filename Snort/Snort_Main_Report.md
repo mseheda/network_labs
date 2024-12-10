@@ -16,8 +16,8 @@ This report consolidates the Snort rules and corresponding outputs for three dif
 - **Description**:
   - Rules detect traffic associated with the NetSupport RAT C2 server, malicious domains (`modandcrackedapk.com`), and compromised host activity.
 - **Files**:
-  - [NetSupport RAT Rules](sandbox:/mnt/data/Snort_Rule_Report.md)
-  - [NetSupport RAT Snort Output](sandbox:/mnt/data/1st-out.txt)
+  - [NetSupport RAT Rules](1task.md)
+  - [NetSupport RAT Snort Output](1st-out.txt)
 
 ---
 
@@ -25,8 +25,8 @@ This report consolidates the Snort rules and corresponding outputs for three dif
 - **Description**:
   - Rules detect Koi Stealer C2 communication, suspicious traffic to malicious domains, and compromised host activity.
 - **Files**:
-  - [Koi Stealer Rules](sandbox:/mnt/data/Snort_Koi_Stealer_Report.md)
-  - [Koi Stealer Snort Output](sandbox:/mnt/data/snort_outpu2t.txt)
+  - [Koi Stealer Rules](2task.md)
+  - [Koi Stealer Snort Output](snort_outpu2t.txt)
 
 ---
 
@@ -34,18 +34,18 @@ This report consolidates the Snort rules and corresponding outputs for three dif
 - **Description**:
   - Rules identify WarmCookie malware activities, including malicious ZIP and DLL downloads, suspicious traffic to malicious servers, and compromised host monitoring.
 - **Files**:
-  - [WarmCookie Rules](sandbox:/mnt/data/Snort_WarmCookie_Report.md)
-  - [WarmCookie Snort Output](sandbox:/mnt/data/warmcookie-output.txt)
+  - [WarmCookie Rules](3task.md)
+  - [WarmCookie Snort Output](warmcookie-output.txt)
 
 ---
 
 ## Screenshots
 
 ### Screenshot 1
-![Task 1 and Task 2 Results](sandbox:/mnt/data/1-and-2.png)
+![Task 1 and Task 2 Results](1-and-2.png)
 
 ### Screenshot 2
-![Task 2 and Task 3 Results](sandbox:/mnt/data/2-and-3.png)
+![Task 2 and Task 3 Results](2-and-3.png)
 
 ---
 
